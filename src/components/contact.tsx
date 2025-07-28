@@ -91,13 +91,14 @@ export default function Contact({
               <div className="gap-4 flex flex-wrap">
                 <input
                   type="text"
+                  name="fullName"
                   placeholder={name}
                   className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                   required
                 />
                 <input
                   type="email"
-                  pattern=""
+                  name="email"
                   placeholder={email}
                   className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
                     mobaile ? "col-start-1 col-end-3" : ""
@@ -108,6 +109,7 @@ export default function Contact({
                     <input
                       type="tel"
                       placeholder={phone}
+                      name="phoneNumber"
                       className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
                         dir === "ltr" ? "text-left" : "text-right"
                       }`}
@@ -115,16 +117,17 @@ export default function Contact({
                     />
                     <input
                       type="tel"
+                      name="secondPhoneNumber"
                       placeholder={mobaile}
                       className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
                         dir === "ltr" ? "text-left" : "text-right"
                       }`}
-                      required
                     />
                   </>
                 ) : (
                   <input
                     type="tel"
+                    name="phoneNumber"
                     placeholder={phone}
                     className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
                       dir === "ltr" ? "text-left" : "text-right"
@@ -133,6 +136,7 @@ export default function Contact({
                 )}
 
                 <textarea
+                  name="message"
                   rows={2}
                   placeholder={message}
                   className={`bg-gray-100 p-3 border border-gray-800 rounded w-full outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
@@ -170,13 +174,14 @@ export default function Contact({
                 <div className="gap-4 flex flex-wrap">
                   <input
                     type="text"
+                    name="FullName"
                     placeholder={name}
                     className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                     required
                   />
                   <input
                     type="email"
-                    pattern=""
+                    name="email"
                     placeholder={email}
                     className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
                       mobaile ? "col-start-1 col-end-3" : ""
@@ -186,12 +191,14 @@ export default function Contact({
                     <>
                       <input
                         type="tel"
+                        name="phoneNumber"
                         placeholder={phone}
                         className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                         required
                       />
                       <input
                         type="tel"
+                        name="secondPhoneNumber"
                         placeholder={mobaile}
                         className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                         required
@@ -200,6 +207,7 @@ export default function Contact({
                   ) : (
                     <input
                       type="tel"
+                      name="phoneNumber"
                       placeholder={phone}
                       className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                     />
@@ -207,6 +215,7 @@ export default function Contact({
 
                   <textarea
                     rows={2}
+                    name="message"
                     placeholder={message}
                     className={`bg-gray-100 p-3 border border-gray-800 rounded w-full outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                   />

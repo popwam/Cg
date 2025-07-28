@@ -9,8 +9,8 @@ const navLinks = [
   { label: "HOME", href: "/" },
   { label: "ABOUT US", href: "/about" },
   { label: "DEVELOPERS", href: "/developers" },
-  { label: "CONTACT US", href: "/contact", activate: true },
   { label: "PROJECTS", href: "/projects" },
+  { label: "CONTACT US", href: "/contact", activate: true },
   { label: "عربي", href: "/ar/contact" },
 ];
 const dirs = "ltr";

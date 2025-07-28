@@ -52,18 +52,21 @@ export default function Form({
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 ">
             <input
               type="text"
+              name="farstName"
               placeholder={farst}
               className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200`}
               required
             />
             <input
               type="text"
+              name="lastName"
               placeholder={last}
               className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200`}
               required
             />
             <input
               type="email"
+              name="email"
               placeholder={email}
               className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200 ${
                 mobile ? "col-start-1 col-end-3" : ""
@@ -73,12 +76,14 @@ export default function Form({
               <>
                 <input
                   type="tel"
+                  name="phoneNumber"
                   placeholder={phone}
                   className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200`}
                   required
                 />
                 <input
                   type="tel"
+                  name="secondPhoneNumber"
                   placeholder={mobile}
                   className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200`}
                 />
@@ -86,6 +91,7 @@ export default function Form({
             ) : (
               <input
                 type="tel"
+                name="phoneNumber"
                 placeholder={phone}
                 className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200`}
               />
@@ -94,6 +100,7 @@ export default function Form({
 
           <textarea
             rows={2}
+            name="message"
             placeholder={message}
             className={`bg-zinc-900 p-3 border border-zinc-800 rounded w-full outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200`}
           />
