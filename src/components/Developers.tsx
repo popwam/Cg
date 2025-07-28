@@ -111,7 +111,7 @@ export default function Developers({ title, jsonFileName }: Props) {
                 key={`slide-${index}-${i}`}
                 className="!w-[208px] md:!w-[320px]"
               >
-                <Link href={dev.linkdeve}>
+                <Link href={jsonFileName === 'productsData' ? `/developer/${dev.linkdeve}` : `/ar/developer/${dev.linkdeve}`}>
                   <div className="rounded-xl overflow-hidden bg-white shadow-md">
                     <Image
                       src={dev.imgdeve || "/loading.webp"}
