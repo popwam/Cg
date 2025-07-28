@@ -59,11 +59,6 @@ export default function DeveloperPage(props: Props) {
   );
 
   if (projects.length === 0) {
-    console.log("slug:", slug);
-    console.log(
-      "all linkdeves:",
-      rawProducts.map((p) => p.linkdeve)
-    );
 
     return (
       <main className="p-10 text-center">
@@ -103,12 +98,6 @@ export default function DeveloperPage(props: Props) {
       href: "https://www.instagram.com/capitalgaterealestate",
     },
   ];
-  console.log("slug:", slug);
-  console.log(
-    "all linkdeves:",
-    rawProducts.map((p) => p.linkdeve)
-  );
-
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
@@ -227,7 +216,7 @@ export default function DeveloperPage(props: Props) {
             </Swiper>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0">
+        <div className="w-screen">
           <Footer
             dir="ltr"
             logo={
