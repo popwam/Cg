@@ -198,7 +198,7 @@ export default function DeveloperPage(props: Props) {
             >
               {projects.map((project) => (
                 <SwiperSlide key={project.slug}>
-                  <Link href={`/ar/project/${project.slug}`}>
+                  <Link href={`/project/${project.slug}`}>
                     <div
                       className="h-[115px] w-[115px]"
                       style={{
