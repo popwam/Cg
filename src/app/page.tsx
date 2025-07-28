@@ -4,30 +4,32 @@ import Area from "@/components/area";
 import Launches from "@/components/Launches";
 import Developers from "@/components/Developers";
 import Form from "@/components/Form";
-import img from "@/assets/img/index";
 import Footer from "@/components/Footer";
 import { FaFacebookF, FaInstagram } from "react-icons/fa6";
 import About from "@/components/about";
-import images from "@/assets/images";
-
+import { metadata } from "./metadata";
+import Head from "next/head";
 const navLinks = [
   { label: "HOME", href: "/", activate: true },
   { label: "ABOUT US", href: "/about" },
   { label: "DEVELOPERS", href: "/developers" },
+  { label: "PROJECTS", href: "/projects" },
   { label: "CONTACT US", href: "/contact" },
-  // { label: "عربي", href: "/ar", issee: "false" },
+  { label: "عربي", href: "/ar", issee: "false" },
 ];
+
+export { metadata };
 
 const links = [
   {
     title: "facebook",
     icon: <FaFacebookF />,
-    href: "https://www.facebook.com",
+    href: "https://www.facebook.com/CapitalGateEstate",
   },
   {
     title: "instgram",
     icon: <FaInstagram />,
-    href: "https://www.insttagram.com",
+    href: "https://www.instagram.com/capitalgaterealestate",
   },
 ];
 const about = [
@@ -54,248 +56,111 @@ const citys = [
   { title: "Sheikh Zayed", link: "sheikh-zayed" },
   { title: "October", link: "october" },
 ];
-const developens = [
-  {
-    img: images.developers.akamalrajhi.src,
-    link: "akam-alrajhi",
-    title: "akam alrajhi , أكام الراجحي",
-  },
-  {
-    img: images.developers.arabella.src,
-    link: "arabella",
-    title: "arabella , أرابيلا",
-  },
-  {
-    img: images.developers.emaar.src,
-    link: "emaar",
-    title: "emaar , اعمار اليكس",
-  },
-  {
-    img: images.developers.hap.src,
-    link: "hassan-allam",
-    title: "Hassan Allam , حسن علام",
-  },
-  {
-    img: images.developers.horizon.src,
-    link: "horizon",
-    title: "horizon , هورايزون",
-  },
-  {
-    img: images.developers.hydepark.src,
-    link: "hyde-park",
-    title: "hyde park , هايد بارك",
-  },
-  {
-    img: images.developers.ilcazar.src,
-    link: "il-cazar",
-    title: "il cazar , الكزار",
-  },
-  {
-    img: images.developers.lavista.src,
-    link: "lavista",
-    title: "lavistaz , لافيستا",
-  },
-  {
-    img: images.developers.lmd.src,
-    link: "lmd",
-    title: "lmd , لاند مارك , ال ام دي",
-  },
-  {
-    img: images.developers.madaar.src,
-    link: "madaar",
-    title: "madaar , مدار",
-  },
-  {
-    img: images.developers.marakez.src,
-    link: "marakez",
-    title: "marakez , مراكز",
-  },
-  {
-    img: images.developers.marasem.src,
-    link: "marasem",
-    title: "marasem , المراسم",
-  },
-  {
-    img: images.developers.marq.src,
-    link: "the-marq",
-    title: "the marq , ذا مارك",
-  },
-  {
-    img: images.developers.mi.src,
-    link: "misr-italia",
-    title: "misr italia , مصر ايطاليا",
-  },
-  {
-    img: images.developers.mnhd.src,
-    link: "mnhd",
-    title: "mnhd , مدينة مصر للاسكان والتعمير",
-  },
-  {
-    img: images.developers.mv.src,
-    link: "mountain-view",
-    title: "mountain view , ماونتن فيواى",
-  },
-  { img: images.developers.n.src, link: "n", title: "N , ان , نواصي" },
-  { img: images.developers.naia.src, link: "naia", title: "naia  , نايا" },
-  {
-    img: images.developers.nationofsky.src,
-    link: "nation-of-sky",
-    title: "nation of sky  , نيشنز اوف سكاي",
-  },
-  {
-    img: images.developers.g.src,
-    link: "g",
-    title: "new giza, g,جي  ,نيو جيزة",
-  },
-  { img: images.developers.ora.src, link: "ora", title: "ora  ,أورا" },
-  {
-    img: images.developers.palmhills.src,
-    link: "palm-hills",
-    title: "palm hills  ,بالم هيلز",
-  },
-  {
-    img: images.developers.pap.src,
-    link: "people-and-places",
-    title: "people and places  ,بيبول اند بليسيز",
-  },
-  { img: images.developers.pre.src, link: "pre", title: "pre  , بي ار اي" },
-  {
-    img: images.developers.qamzi.src,
-    link: "qamzi",
-    title: "qamzi  , القمزي",
-  },
-  { img: images.developers.roya.src, link: "roya", title: "roya  , رؤية" },
-  {
-    img: images.developers.sabbour.src,
-    link: "sabbour",
-    title: "sabbour  , الاهلي صبور",
-  },
-  {
-    img: images.developers.sed.src,
-    link: "sed",
-    title: "sed  ,السعودية المصرية للتعمير ,سيد,اس اي دي ",
-  },
-  { img: images.developers.sodic.src, link: "sodic", title: "sodic  ,سوديك" },
-  {
-    img: images.developers.starlight.src,
-    link: "starlight",
-    title: "starlight ,  ستارلايت ",
-  },
-  {
-    img: images.developers.tatweer.src,
-    link: "tatweer-misr",
-    title: "Tatweer Misr, تطوير مصر ",
-  },
-  {
-    img: images.developers.tmg.src,
-    link: "tmg",
-    title: "tmg , تي ام جي , طلعت مصطفى",
-  },
-  {
-    img: images.developers.waterway.src,
-    link: "waterway",
-    title: "The WaterWay , ذا واتر واي",
-  },
-];
-const launche = [
-  {
-    title: "DOSE",
-    link: "/",
-    thumbnail: images.developers.akamalrajhi.src,
-    background: images.imgprojects.doseimg2.src,
-    description: "",
-  },
-  {
-    title: "MIVIDA",
-    link: "/",
-    thumbnail: images.developers.emaar.src,
-    background: images.imgprojects.mividaimg2.src,
-    description: "",
-  },
-  {
-    title: "PARK VIEW",
-    link: "/",
-    thumbnail: images.developers.hap.src,
-    background: images.imgprojects.parkviewimg2.src,
-    description: "",
-  },
-  {
-    title: "SWAN LAKE",
-    link: "/",
-    thumbnail: images.developers.hap.src,
-    background: images.imgprojects.swanlakeimg4.src,
-    description: "",
-  },
-  {
-    title: "SAADA NEW CAIRO",
-    link: "/",
-    thumbnail: images.developers.horizon.src,
-    background: images.imgprojects.saadanewcairoimg1.src,
-    description: "",
-  },
-  {
-    title: "TAWNY",
-    link: "/",
-    thumbnail: images.developers.hydepark.src,
-    background: images.imgprojects.tawnyimg4.src,
-    description: "",
-  },
-];
 
 const dirs = "ltr";
 export default function HomePage({ children }: { children: React.ReactNode }) {
-
   return (
-    <main
-      className="w-screen overflow-x-hidden "
-      dir={dirs}
-      style={{ fontFamily: "EnLight" }}
-    >
-      <Navbar
-        navLinks={navLinks}
-        logoTop={img.logos.top.src}
-        logoTextTop={img.logos.texttop.src}
-        logoBotoom={img.logos.bottom.src}
-        logoTextBotoom={img.logos.textbottom.src}
-        logoText="Capitl Gate"
-        currentLang='en'
-      />
-      <Hero />
-      <About
-        background={img.background.bgabout.src}
-        img={img.image.imgabout.src}
-        date={about}
-      />
-      <Area citys={citys} />
-      <Launches title="New Launches" dir="" data={launche} />
-      <Developers title="OUR DEVELOPENS" data={developens} />
-      <Form
+    <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Capital Gate Real Estate",
+              url: "https://capitalgateegy.com",
+              logo: "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
+              sameAs: [
+                "https://www.facebook.com/CapitalGateEstate",
+                "https://www.instagram.com/capitalgaterealestate/",
+                "https://www.linkedin.com/in/capital-gate-a076b6376/",
+              ],
+              description:
+                "Discover the best real estate projects with Capital Gate. Trusted agency for New Cairo, New Capital, Sheikh Zayed, and more.",
+            }),
+          }}
+        />
+      </Head>
+      <main
+        className="w-screen overflow-x-hidden "
         dir={dirs}
-        background={img.background.bgcontact.src}
-        title="CONTACT US"
-        desc="If you have any questions, please feel free to get in touch with us."
-        farst="First Name"
-        last="Last Name"
-        email="Email"
-        phone="Phone"
-        mobaile="Mobile"
-        message="Short About you"
-        button="SEND NOW"
-      />
-      <Footer
-        dir={dirs}
-        logo={img.logos.logo.src}
-        links={links}
-        titlemenu="MAIN MENU"
-        linkmenu={navLinks}
-        addresstitle="ADDRESS"
-        addressline1="Narth 90 ST"
-        addressline2="New Cairo"
-        addressline3="Egypt"
-        contacttitle="CONACT"
-        phone="+20 1026555621"
-        email="INFO@CAPITALGATEEGY.COM"
-      />
-    </main>
+        style={{ fontFamily: "EnLight" }}
+      >
+        <Navbar
+          navLinks={navLinks}
+          logoTop={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623049/logo/agfrf31kpws0sxgxkudk.avif"
+          }
+          logoTextTop={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623053/logo/fcygqklzlehiiori2dic.avif"
+          }
+          logoBotoom={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623048/logo/t6vdoxqehyrikxe4tvhy.avif"
+          }
+          logoTextBotoom={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/ritntst37ef2kpb7aohv.avif"
+          }
+          logoText="Capitl Gate"
+          currentLang="en"
+        />
+        <Hero />
+        <About
+          background={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623349/background/ffrb1l1cup63adlsubkr.avif"
+          }
+          img={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623360/background/vrphwcbvun4fg1aiuhmf.avif"
+          }
+          date={about}
+        />
+        <Area citys={citys} />
+        <Launches
+          title="New Launches"
+          jsonFileName="productsData"
+          projectSlugs={[
+            "dose",
+            "direction-white",
+            "mivida",
+            "swan-lake-oct",
+            "hap-town",
+            "park-view",
+          ]}
+          dir={dirs}
+        />
+        <Developers title="OUR DEVELOPERS" jsonFileName="productsData" />
+        <Form
+          dir={dirs}
+          background={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623369/background/mgos7ve6xwkhwijo5ks6.avif"
+          }
+          title="CONTACT US"
+          desc="If you have any questions, please feel free to get in touch with us."
+          farst="First Name"
+          last="Last Name"
+          email="Email"
+          phone="Phone"
+          mobile="Mobile"
+          message="Short About you"
+          button="SEND NOW"
+        />
+        <Footer
+          dir={dirs}
+          logo={
+            "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif"
+          }
+          links={links}
+          titlemenu="MAIN MENU"
+          linkmenu={navLinks}
+          addresstitle="ADDRESS"
+          addressline1="North 90 ST"
+          addressline2="New Cairo"
+          addressline3="Egypt"
+          contacttitle="CONACT"
+          phone="+20 1144566600"
+          email="info@capitalgateegy.com"
+        />
+      </main>
+    </>
   );
 }

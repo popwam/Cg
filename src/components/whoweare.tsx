@@ -68,14 +68,14 @@ const About: React.FC<AboutProps> = ({
         >
           {title}
         </h2>
-        <h6 className="text-xl md:text-2xl lg:text-3xl text-gray-400 capitalize tracking-[2px]">
+        <h6 className="text-xl md:text-2xl lg:text-3xl text-gray-400 capitalize tracking-[2px] text-center">
           {desc}
         </h6>
       </div>
       {/* how we are */}
       <div className="w-screen min-h-[55vh] flex flex-col py-8 gap-4">
         <h2
-          className={`text-6xl text-gray-400/35 uppercase font-extrabold opacity-40 ${
+          className={`text-6xl text-gray-400/35 uppercase font-extrabold opacity-40 text-center ${
             whatmakesdir === "ar" ? "tracking-[2px]" : "tracking-[10px]"
           }`}
           style={{ fontFamily: "sans-serif" }}
@@ -83,7 +83,7 @@ const About: React.FC<AboutProps> = ({
           {howwearetitle}
         </h2>
         <h2
-          className={`text-5xl text-gray-600 uppercase ${
+          className={`text-5xl text-gray-600 uppercase text-center ${
             whatmakesdir === "ar"
               ? "tracking-[2px] -mt-10"
               : "tracking-[5px] -mt-10"
@@ -118,7 +118,7 @@ const About: React.FC<AboutProps> = ({
         }}
       >
         <h2
-          className={`text-5xl text-white uppercase h-fit ${
+          className={`text-5xl text-white uppercase h-fit text-center ${
             whatmakesdir === "ar" ? "tracking-[2px]" : "tracking-[5px]"
           }`}
           style={{ fontFamily: whatmakesdir === "ar" ? "ArLight" : "Enlight" }}
@@ -143,7 +143,7 @@ const About: React.FC<AboutProps> = ({
       {/* our vaiues */}
       <div className="w-screen min-h-[45vh] flex flex-col py-8 my-8 gap-4">
         <h2
-          className={`text-6xl text-gray-400/35 uppercase font-extrabold opacity-40 ${
+          className={`text-6xl text-gray-400/35 uppercase font-extrabold opacity-40 text-center ${
             whatmakesdir === "ar" ? "tracking-[2px]" : "tracking-[10px]"
           }`}
           style={{ fontFamily: "sans-serif" }}
@@ -151,7 +151,7 @@ const About: React.FC<AboutProps> = ({
           {valuestitel}
         </h2>
         <h2
-          className={`text-5xl text-gray-600 uppercase ${
+          className={`text-5xl text-gray-600 uppercase text-center ${
             whatmakesdir === "ar"
               ? "tracking-[2px] -mt-8"
               : "tracking-[5px] -mt-10"
@@ -177,7 +177,7 @@ const About: React.FC<AboutProps> = ({
       <div className="w-screen min-h-[45vh] flex flex-col py-8 gap-4 ">
         <div className="mt-6 w-[90vw] mx-auto border-2 rounded-xl h-full p-6 gap-4 relative flex flex-col ">
           <div className="md:text-4xl text-3xl relative my-4 w-fit">
-            <span className="absolute w-1/12 h-0.5 -bottom-0.5 bg-[#333]"></span>
+            <span className="absolute w-1/12 h-0.5 -bottom-0.5 bg-[#333] start-0"></span>
             <AnimatedText
               text={`${whatmakestitle}`}
               direction="right"

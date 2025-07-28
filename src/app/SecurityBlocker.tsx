@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import Image from "next/image";
-import img from "@/assets/img";
 
 const SecurityBlocker = () => {
   useEffect(() => {
@@ -83,8 +82,10 @@ const SecurityBlocker = () => {
   return (
     <div className="blur-content hidden fixed inset-0 z-[9999] bg-black flex flex-col items-center justify-center">
       <Image
-        src={img.logos.cg}
+        src={"/loading.webp"}
         alt="Capital Gate"
+        height={512}
+        width={288}
         className="opacity-25 w-32 md:w-md lg:w-72"
       />
       <div

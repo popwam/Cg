@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import Image from "next/image";
 
 type Menu = {
@@ -41,6 +40,7 @@ export default function Footer({
   email,
   phone,
 }: FooterFormProps) {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-black text-white py-10 px-6 md:px-16 text-sm" dir={dir}>
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 self-center">
@@ -92,14 +92,16 @@ export default function Footer({
           </h4>
           <p className="mt-2">
             <span className="font-bold">- T:</span> {phone} <br />
-            <span className="font-bold">- E:</span> {email}
+            <span className="font-bold">- E:</span> {email} <br />
+            <span className="font-bold">- P</span> <Link href={dir === "ltr" ? '/privacy' :'/ar/privacy'}>Privacy Policy</Link> <br />
+            <span className="font-bold">- U</span> <Link href={dir === "ltr" ? '/terms' :'/ar/terms'}>terms of use</Link> <br />
           </p>
         </div>
       </div>
       <div className="mt-10 text-center text-xs text-gray-400 border-t border-zinc-800 pt-4">
-        © 2025 CAPTALE GATE EGYPT. <br />
+        © 2017 - {currentYear} CAPTALE GATE EGYPT.<br />
         DESIGNED BY
-        <span className="text-sky-500 font-semibold cursor-pointer">WAM</span>
+        <a href="https://mmdoh.popwam.com" className="text-sky-500 font-semibold cursor-pointer">popwam</a>
       </div>
     </footer>
   );

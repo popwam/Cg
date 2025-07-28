@@ -10,11 +10,6 @@ import SecurityBlocker from './SecurityBlocker';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
-export const metadata = {
-  title: 'Capital Gate',
-  description: 'صفحة بتجربة AOS + الخطوط',
-};
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>

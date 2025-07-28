@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+
 import Card from "@/components/Card";
 import AnimatedText from "@/components/AnimatedText";
-import images from "@/assets/images";
 
-// داتا الكروت
-type datas = {
+type Project = {
+  slug: string;
   title: string;
   link: string;
   thumbnail: string;
@@ -17,20 +17,39 @@ type datas = {
   description: string;
 };
 
-type Launche = {
+type Props = {
   title: string;
-  data: datas[];
-  dir?: string;
+  jsonFileName: string;
+  projectSlugs: string[];
+  dir: "ltr" | "rtl";
 };
 
-export default function Launches({ title, data, dir }: Launche) {
-  const slidesSm = data.map((item, i) => (
+export default function Launches({
+  title,
+  jsonFileName,
+  projectSlugs,
+  dir,
+}: Props) {
+  const rawData = require(`@/json/${jsonFileName}.json`);
+  const allProjects: any[] = rawData as any[];
+  const selectedProjects = allProjects
+    .filter((proj) => projectSlugs.includes(proj.slug))
+    .map((proj) => ({
+      slug: proj.slug,
+      title: proj.name,
+      link: `${dir === "ltr" ? "/project" : "/ar/project"}/${proj.slug}`,
+      thumbnail: proj.imgdeve || "/loading.webp",
+      background: proj.imgmaster || "/loading.webp",
+      description: proj.desc1,
+    }));
+
+  const slidesSm = selectedProjects.map((item, i) => (
     <div key={i} className="bg-red-500 rounded-xl w-full h-[560px]">
       <Card
         title={item.title}
         link={item.link}
         thumbnail={item.thumbnail}
-        dir="rtl"
+        dir={dir}
         background={item.background}
         description={item.description}
       />
@@ -38,33 +57,17 @@ export default function Launches({ title, data, dir }: Launche) {
   ));
 
   const slidesLg = [];
-  for (let i = 0; i < data.length; i += 3) {
+  for (let i = 0; i < selectedProjects.length; i += 3) {
     slidesLg.push(
       <div key={i} className="flex flex-col md:flex-row gap-4 mx-auto p-4">
         <div className="rounded-xl w-full md:w-2/3 min-h-[600px]">
-          {data[i] && (
-            <Card
-              title={data[i].title}
-              link={data[i].link}
-              thumbnail={data[i].thumbnail}
-              dir="rtl"
-              background={data[i].background}
-              description={data[i].description}
-            />
-          )}
+          {selectedProjects[i] && <Card {...selectedProjects[i]} dir={dir} />}
         </div>
         <div className="flex flex-col gap-4 w-full md:w-1/3">
           {[1, 2].map((j) =>
-            data[i + j] ? (
-              <div key={j} className={`rounded-xl min-h-[290px] w-full`}>
-                <Card
-                  title={data[i + j].title}
-                  link={data[i + j].link}
-                  thumbnail={data[i + j].thumbnail}
-                  dir="rtl"
-                  background={data[i + j].background}
-                  description={data[i + j].description}
-                />
+            selectedProjects[i + j] ? (
+              <div key={j} className="rounded-xl min-h-[290px] w-full">
+                <Card {...selectedProjects[i + j]} dir={dir} />
               </div>
             ) : null
           )}
@@ -89,6 +92,7 @@ export default function Launches({ title, data, dir }: Launche) {
         />
       </div>
 
+      {/* للموبايل */}
       <div className="md:hidden">
         <Swiper
           modules={[Autoplay, Pagination]}
@@ -97,9 +101,6 @@ export default function Launches({ title, data, dir }: Launche) {
           loop={true}
           spaceBetween={20}
           slidesPerView={1.1}
-          grabCursor={false}
-          touchRatio={1}
-          simulateTouch={true}
         >
           {slidesSm.map((component, i) => (
             <SwiperSlide key={i}>{component}</SwiperSlide>
@@ -107,7 +108,7 @@ export default function Launches({ title, data, dir }: Launche) {
         </Swiper>
       </div>
 
-      {/* سلايدر الديسكتوب */}
+      {/* للديسكتوب */}
       <div className="hidden md:block">
         <Swiper
           modules={[Autoplay, Pagination]}
@@ -116,9 +117,6 @@ export default function Launches({ title, data, dir }: Launche) {
           loop={true}
           spaceBetween={20}
           slidesPerView={1.1}
-          grabCursor={false}
-          touchRatio={1}
-          simulateTouch={true}
         >
           {slidesLg.map((component, i) => (
             <SwiperSlide key={i}>{component}</SwiperSlide>

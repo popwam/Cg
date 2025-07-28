@@ -11,7 +11,7 @@ type FormProps = {
   last: string;
   email: string;
   phone: string;
-  mobaile: string;
+  mobile: string;
   message: string;
   button: string;
 };
@@ -25,7 +25,7 @@ export default function Form({
   last,
   email,
   phone,
-  mobaile,
+  mobile,
   message,
   button,
 }: FormProps) {
@@ -40,7 +40,11 @@ export default function Form({
     >
       <div className="relative z-10 flex items-center lg:items-end justify-center lg:justify-end min-h-screen px-0 lg:px-12 pb-0 lg:pb-32 ">
         <form
-          className={`bg-[#111] p-8 rounded-lg max-w-2xl w-full space-y-4 text-gray-50`} dir={dir}
+          className={`bg-[#111] p-8 rounded-lg max-w-2xl w-full space-y-4 text-gray-50`}
+          dir={dir}
+          target="_blank"
+          action="https://formsubmit.co/info@capitalgateegy.com"
+          method="POST"
         >
           <h2 className="text-3xl font-light tracking-wide">{title}</h2>
           <p className={`text-sm text-gray-300`}>{desc}</p>
@@ -60,13 +64,12 @@ export default function Form({
             />
             <input
               type="email"
-              pattern=""
               placeholder={email}
               className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200 ${
-                mobaile ? "col-start-1 col-end-3" : ""
+                mobile ? "col-start-1 col-end-3" : ""
               }`}
             />
-            {mobaile ? (
+            {mobile ? (
               <>
                 <input
                   type="tel"
@@ -76,9 +79,8 @@ export default function Form({
                 />
                 <input
                   type="tel"
-                  placeholder={mobaile}
+                  placeholder={mobile}
                   className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200`}
-                  required
                 />
               </>
             ) : (

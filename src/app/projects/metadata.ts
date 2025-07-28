@@ -1,0 +1,45 @@
+export const metadata = {
+  title: "Projects - Capital Gate",
+  description: "Explore our latest and most popular real estate projects.",
+  keywords: [
+    "about capital gate",
+    "real estate",
+    "vision",
+    "mission",
+    "New Cairo properties",
+    "New Capital apartments",
+    "Sheikh Zayed villas",
+    "North Coast real estate",
+    "Egypt property broker",
+    "Capital Gate Real Estate",
+    "buy apartment in Egypt",
+    "real estate investment",
+    "trusted real estate agency",
+    "luxury properties Egypt",
+    "real estate developers",
+    "capital gate",
+    "property developers",
+    "real estate projects",
+    "housing projects",
+  ],
+  openGraph: {
+    title: "Projects - Capital Gate",
+    description: "Explore our latest and most popular real estate projects.",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
+        width: 1200,
+        height: 630,
+        alt: "Projects - Capital Gate",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Projects - Capital Gate",
+    description: "Explore our latest and most popular real estate projects.",
+    images: [
+      "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
+    ],
+  },
+};

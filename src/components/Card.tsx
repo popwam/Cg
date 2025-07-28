@@ -7,7 +7,7 @@ type CardProps = {
   description: string;
   thumbnail: string;
   background: string;
-  dir?: "ltr" | "rtl";
+  dir: "ltr" | "rtl";
   link: string;
 };
 
@@ -16,10 +16,9 @@ const Card: React.FC<CardProps> = ({
   description,
   thumbnail,
   background,
-  dir = "ltr",
+  dir,
   link,
 }) => {
-  const isRTL = dir === "rtl";
   return (
     <Link href={link}>
       <div
@@ -31,15 +30,18 @@ const Card: React.FC<CardProps> = ({
           direction: dir,
         }}
       >
-        <div className="flex items-center gap-4 p-4 bg-white bg-opacity-70 backdrop-blur-sm absolute bottom-0 w-full lg:w-10/12 rounded-t-lg lg:rounded-none lg:rounded-tl-3xl">
+        <div className={`flex items-center gap-4 p-4 bg-white bg-opacity-70 backdrop-blur-sm absolute bottom-0 w-full lg:w-10/12 rounded-t-lg lg:rounded-none ${dir === 'rtl' ? 'lg:rounded-tl-3xl' : 'lg:rounded-tr-3xl'} `}>
           <div className="flex-1">
             <h3 className="text-lg font-bold mb-1">{title}</h3>
-            <p className="text-sm text-gray-700">{description}</p>
+            <p className="text-sm text-gray-700">
+              {description.slice(0, 50)}
+              {description.length > 30 ? "..." : ""}
+            </p>
           </div>
         </div>
 
         <div
-          className={` absolute top-1/12 left-1/12  bg-opacity-70 bg-[#eee] p-2 rounded-full`}
+          className={` absolute top-1/12 end-1/12  bg-opacity-70 bg-[#eee] p-2 rounded-full`}
         >
           <div
             className="w-18 h-18"
