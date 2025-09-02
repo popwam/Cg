@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-
+import rawProducts from "@/json/productsData.json";
 // Firebase Admin SDK
 import admin from "firebase-admin";
 
@@ -17,7 +17,7 @@ if (!admin.apps.length) {
 }
 
 // مسار ملف المشاريع الداخلي
-const projectsFile = path.join(process.cwd(), "src/json/projects.json");
+const projectsFile = path.join(process.cwd(), rawProducts);
 
 // متغير لتخزين النسخة القديمة
 let oldProjects = null;
