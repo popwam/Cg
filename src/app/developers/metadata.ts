@@ -21,6 +21,7 @@ export const metadata = {
     "capital gate",
     "property developers",
   ],
+  viewport: 'width=device-width, initial-scale=1.0',
   openGraph: {
     title: "Developers - Capital Gate",
     description:
@@ -39,7 +40,6 @@ export const metadata = {
     title: "Developers - Capital Gate",
     description:
       "Discover top real estate developers and our exclusive partnerships.",
-    viewport: 'width=device-width, initial-scale=1.0',
     images: [
       "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
     ],
