@@ -43,6 +43,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Home - Capital Gate",
+    viewport: 'width=device-width, initial-scale=1.0',
     description: "Discover the best real estate projects with Capital Gate.",
     images: [
       "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
