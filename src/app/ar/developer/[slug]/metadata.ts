@@ -52,6 +52,7 @@ export async function generateMetadata({
       "مشروعات مصر العقارية",
       "عقارات فاخرة",
     ],
+    viewport: 'width=device-width, initial-scale=1.0',
     openGraph: {
       title: `${developer.namedeve} - كابيتال جيت`,
       description: developer.desc,
@@ -68,7 +69,6 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: `${developer.namedeve} - كابيتال جيت`,
       description: developer.desc,
-      viewport: 'width=device-width, initial-scale=1.0',
       images: [developer.imgdeve],
     },
   };
