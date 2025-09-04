@@ -71,6 +71,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: `${project.name} - كابيتال جيت`,
       description: project.desc1,
+      viewport: 'width=device-width, initial-scale=1.0',
       images: [project.imgmaster || project.icon],
     },
   };
