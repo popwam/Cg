@@ -62,6 +62,7 @@ export async function generateMetadata({
       "trusted real estate agency",
       "luxury properties Egypt",
     ],
+    viewport: 'width=device-width, initial-scale=1.0',
     openGraph: {
       title: `${developer.namedeve} - Capital Gate`,
       description: developer.desc,
@@ -78,7 +79,6 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: `${developer.namedeve} - Capital Gate`,
       description: developer.desc,
-      viewport: 'width=device-width, initial-scale=1.0',
       images: [developer.imgdeve],
     },
   };
