@@ -22,6 +22,7 @@ export const metadata = {
     "real estate projects",
     "housing projects",
   ],
+  viewport: 'width=device-width, initial-scale=1.0',
   openGraph: {
     title: "Projects - Capital Gate",
     description: "Explore our latest and most popular real estate projects.",
@@ -37,7 +38,6 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Projects - Capital Gate",
-    viewport: 'width=device-width, initial-scale=1.0',
     description: "Explore our latest and most popular real estate projects.",
     images: [
       "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
