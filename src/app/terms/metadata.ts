@@ -42,6 +42,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Terms and Conditions - Capital Gate",
+    viewport: 'width=device-width, initial-scale=1.0',
     description: "Learn about the terms and conditions of using Capital Gate.",
     images: [
       "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
