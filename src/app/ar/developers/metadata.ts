@@ -34,6 +34,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "المطورين - كابيتال جيت",
     description: "تعرف على أفضل المطورين العقاريين وشراكاتنا المميزة.",
+    viewport: 'width=device-width, initial-scale=1.0',
     images: [
       "https://res.cloudinary.com/dfltsy2ov/image/upload/v1753623051/logo/sxdinb9u5qqkth3ewals.avif",
     ],
