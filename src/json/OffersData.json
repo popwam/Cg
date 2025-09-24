@@ -1,0 +1,802 @@
+[
+    {
+        "slug": "badya-october-gardens",
+        "name": "Badya in October Gardens",
+        "district": "6th of October",
+        "start_price": "5,968,800",
+        "originalPlan": {
+            "0": {
+                "downpayment": "10",
+                "years": "8"
+            }
+        },
+        "offerType": [
+            "5% D.P",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "1.5",
+                "years": "12"
+            }
+        },
+        "location": "Badya by Palm Hills is located in the heart of 6th of October City, on El Wahat (Oasis) Road, near Creative City and Faiyum Desert Road. It connects East and West Cairo, offering strategic access from several main roads.",
+        "description": "Badya Palm Hills covers about 3000 acres and is a landmark integrated project by Palm Hills offering apartments, villas, twin houses, and penthouses. It is designed as a sustainable smart city with green spaces, modern amenities, educational and healthcare facilities.",
+        "landmarks": [
+            "Near Creative City",
+            "Close to Faiyum Desert Road",
+            "Accessible via El Wahat Road",
+            "About 15 minutes from Giza Pyramid Complex",
+            "Approximately 30 kilometers from the New Capital",
+            "10 minutes from major services in October City"
+        ],
+        "imgmaster": "https://prod-images.nawy.com/processed/compound_image/image/12244/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/16/medium.webp",
+        "namedeve": "Palm Hills Developments",
+        "images": [
+            "https://prod-images.nawy.com/processed/compound_image/image/12244/high.webp"
+        ]
+    },
+    {
+        "slug": "scenes-mostakbal-city",
+        "name": "Scenes in Mostakbal City",
+        "district": "Mostakbal City",
+        "start_price": "17,245,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "5"
+            },
+            "1": {
+                "downpayment": "5%",
+                "years": "8"
+            },
+            "2": {
+                "downpayment": "10%",
+                "years": "12"
+            }
+        },
+        "offerType": [
+            "0% D.P",
+            "5% D.P",
+            "Cash",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "15"
+            },
+            "1": {
+                "downpayment": "5",
+                "years": "5",
+                "discount": "40%"
+            },
+            "2": {
+                "downpayment": "0",
+                "years": "11"
+            },
+            "3": {
+                "downpayment": "10%",
+                "years": "12"
+            }
+        },
+        "location": "Scenes by Tatweer Misr is situated in a prime location in Mostakbal City, with easy access to major roads including the Ring Road and Suez Road. It is close to Future University and the American University, also near Madinaty, Al Rehab, and The Butterflies Compound. ",
+        "description": "Scenes Mostakbal City by Tatweer Misr is a luxurious residential compound covering approximately 100 feddan, offering villas, twin houses, and townhouses with high-end finishes. It features expansive green areas, lakes, and modern amenities, delivering upscale integrated living. ",
+        "landmarks": [
+            "Ring Road",
+            "Suez Road",
+            "Future University",
+            "American University",
+            "Madinaty",
+            "The Butterflies Compound"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/1391/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/33/medium.webp",
+        "namedeve": "Tatweer Misr",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/1391/high.webp"
+        ]
+    },
+    {
+        "slug": "solana-new-zayed",
+        "name": "Solana in New Zayed",
+        "district": "New Zayed",
+        "start_price": "15,204,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "0% D.P",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "0%",
+                "years": "10"
+            }
+        },
+        "location": "Solana by Ora Developers is located in New Zayed, between Al Dabaa Corridor and Middle Ring Road, directly on the Dabaa axis, near Cairo-Alexandria Desert Road and Waslet Dahshour Road. ",
+        "description": "Solana New Zayed is a premium compound developed by Ora, built on ~316 acres. It offers high-end residential units with modern architecture, lush green spaces, water bodies, world-class amenities including commercial areas, sports facilities, parks, medical services, and security. ",
+        "landmarks": [
+            "Al Dabaa Corridor",
+            "Middle Ring Road",
+            "26th of July Corridor",
+            "Juhayna Square",
+            "ZED Park",
+            "American University in Cairo",
+            "Sphinx Airport",
+            "Belle Vie",
+            "The Estates SODIC",
+            "Rivers New Zayed"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/877/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/85/medium.webp",
+        "namedeve": "Ora Developers",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/877/high.webp"
+        ]
+    },
+    {
+        "slug": "zed-el-sheikh-zayed",
+        "name": "ZED in El Sheikh Zayed",
+        "district": "Sheikh Zayed",
+        "start_price": "9,586,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "6%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "0% D.P",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "1%",
+                "years": "10"
+            }
+        },
+        "location": "ZED El Sheikh Zayed by Ora Developers is located in the heart of El Sheikh Zayed City in Western Cairo, with excellent visibility from Al Nozha Road, and proximity to the 26th of July Corridor and Alexandria Desert Road. ",
+        "description": "ZED El Sheikh Zayed is built on approximately 165 acres, surrounding the one-of-a-kind ZED Park. It offers generous green spaces, mixed-use retail and entertainment facilities, sports complexes, picturesque water features, interconnected landscaped courtyards and contemporary residential units. ",
+        "landmarks": [
+            "ZED Park",
+            "26th of July Corridor",
+            "Alexandria Desert Road",
+            "Hyper One Shopping Center",
+            "Major Retail & Entertainment Areas in Sheikh Zayed",
+            "Proximity to main educational and health facilities"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/1756/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/85/medium.webp",
+        "namedeve": "Ora Developers",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/1756/high.webp"
+        ]
+    },
+    {
+        "slug": "px-6th-of-october",
+        "name": "PX in 6th of October City",
+        "district": "6th of October",
+        "start_price": "11,332,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "8"
+            }
+        },
+        "offerType": [
+            "5% D.P",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "10"
+            }
+        },
+        "location": "PX Palm Hills is situated in the Eastern Extension of 6th of October City, on the Palm Hills plateau, overlooking New Giza and between New Giza Compound and The Crown. It has easy access from 26th of July Corridor, Wahat Road, Waslet Dahshour Road, and Mall of Egypt Road. ",
+        "description": "PX by Palm Hills spans approximately 370 acres and is designed as a luxury, integrated residential compound featuring apartments, villas, townhouses, and penthouses. The project emphasizes green spaces, water features, commercial hubs, and luxurious amenities blending nature with modern living. ",
+        "landmarks": [
+            "New Giza Compound",
+            "The Crown Compound",
+            "Mall of Egypt",
+            "Juhayna Square",
+            "Media Production City",
+            "Great Pyramids"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/1154/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/16/medium.webp",
+        "namedeve": "Palm Hills Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/1154/high.webp"
+        ]
+    },
+    {
+        "slug": "cleo-palm-hills",
+        "name": "Cleo – Palm Hills",
+        "district": "New Cairo",
+        "start_price": "9,283,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "8.5"
+            }
+        },
+        "offerType": [
+            "5% D.P",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "3%",
+                "years": "10"
+            }
+        },
+        "location": "Cleo Water Residences is a phase inside Palm Hills New Cairo, located in the 5th Settlement. It enjoys strategic proximity to Cairo International Airport (about 10 minutes), the American University in Cairo (about 15 minutes), the New Administrative Capital, Suez Road, Rehab City, and major highways. ",
+        "description": "Cleo Palm Hills (Cleo Water Residences) is part of Palm Hills New Cairo, offering apartments and studios (1-3 bedrooms) in fully finished buildings, with vast greenery (≈80-82%) and lagoons, vibrant landscape design, and amenities such as gyms, outdoor spaces, lagoons, lakes, and recreational areas. ",
+        "landmarks": [
+            "Cairo International Airport",
+            "American University in Cairo (AUC)",
+            "New Administrative Capital",
+            "Rehab City",
+            "Suez Road",
+            "Major highways and roads around New Cairo"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/4639/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/16/medium.webp",
+        "namedeve": "Palm Hills Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/4639/high.webp"
+        ]
+    },
+    {
+        "slug": "scene-7-new-capital",
+        "name": "Scene 7",
+        "district": "New Administrative Capital",
+        "start_price": "7,170,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "Cash"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "47%"
+            },
+            "1": {
+                "discount": "45% -50%",
+                "years": "1"
+            },
+            "2": {
+                "discount": "40%",
+                "downpayment": "25%",
+                "years": "2"
+            },
+            "3": {
+                "discount": "42%",
+                "downpayment": "25%",
+                "years": "1"
+            },
+            "4": {
+                "discount": "38%",
+                "downpayment": "25%",
+                "years": "3"
+            },
+            "5": {
+                "discount": "30%",
+                "downpayment": "10%",
+                "years": "5"
+            },
+            "6": {
+                "discount": "20%",
+                "downpayment": "10%",
+                "years": "7"
+            }
+        },
+        "location": "Scene 7 New Capital Compound is located in the Residential District R7, Plot G2 in the New Administrative Capital, along extension of the 90th Street. It overlooks four main streets and is close to Diplomatic District, Medical City, Government Complex, Green River, New Capital Airport, and major services. ",
+        "description": "Scene 7 is developed by Akam Developments on about 40 acres. It features large green areas, artificial lakes, sports academies, modern clubhouse, luxury services, entertainment and commercial hubs. It is designed to combine upscale living with leisure and nature. Units vary in size, designs, and amenities. ",
+        "landmarks": [
+            "Diplomatic District",
+            "Medical City",
+            "Government Complex",
+            "Green River",
+            "New Capital Airport",
+            "Expo City"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/2190/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/90/medium.webp",
+        "namedeve": "Akam Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/2190/high.webp"
+        ]
+    },
+    {
+        "slug": "31-west-6th-of-october",
+        "name": "31 West in 6th of October",
+        "district": "6th of October City",
+        "start_price": "9,391,200",
+        "originalPlan": {
+            "0": {
+                "downpayment": "0%",
+                "years": "8"
+            },
+            "1": {
+                "downpayment": "5%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "5% D.P",
+            "Cash",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "10%",
+                "downpayment": "5%",
+                "years": "8"
+            },
+            "1": {
+                "downpayment": "5%",
+                "years": "12"
+            }
+        },
+        "location": "31 West by M Squared is located in the eastern extension of 6th of October City, directly off the 26th of July Corridor, adjacent to Palm Hills Bamboo Extension. It enjoys proximity to Mall of Egypt, Mall of Arabia, Sphinx International Airport, and surrounding upscale communities such as New Giza and October Gardens. ",
+        "description": "31 West is a residential compound on ~31 acres featuring apartments, townhouses, twin houses, and standalone villas. The design emphasizes open space, lakes, landscaped gardens, and a balance between architecture and natural elements. Amenities include commercial hubs, leisure & sports facilities, kids’ areas, green walking/cycling paths, and high security. ",
+        "landmarks": [
+            "Mall of Egypt",
+            "Mall of Arabia",
+            "Sphinx International Airport",
+            "New Giza Compound",
+            "Palm Hills Bamboo Extension",
+            "Gezira Club"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/1238/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/compound/cover_image/1238/high.webp",
+        "namedeve": "M Squared Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/1238/high.webp"
+        ]
+    },
+    {
+        "slug": "scenario-new-capital",
+        "name": "Scenario in New Capital",
+        "district": "New Administrative Capital",
+        "start_price": "7,846,575",
+        "originalPlan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "Cash"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "47%"
+            },
+            "1": {
+                "discount": "45% -50%",
+                "years": "1"
+            },
+            "2": {
+                "discount": "40%",
+                "downpayment": "25%",
+                "years": "2"
+            },
+            "3": {
+                "discount": "42%",
+                "downpayment": "25%",
+                "years": "1"
+            },
+            "4": {
+                "discount": "38%",
+                "downpayment": "25%",
+                "years": "3"
+            },
+            "5": {
+                "discount": "30%",
+                "downpayment": "10%",
+                "years": "5"
+            },
+            "6": {
+                "discount": "20%",
+                "downpayment": "10%",
+                "years": "7"
+            }
+        },
+        "location": "Scenario New Capital by Akam Developments is located in R7, plot A2, in the heart of the New Administrative Capital. It is near IL Bosco compound, Midtown Sky, the Embassy and Diplomatic Districts, the Presidential Palace, Al Masa Hotel, the Green River, British University, Mohammed Bin Zayed axis. ",
+        "description": "Scenario New Capital is a high-end residential compound by Akam Developments spread over about 39-40 acres. It offers apartments, duplexes, and possibly hotel apartments with large green areas, artificial lakes, modern architectural designs, and full amenities aiming for comfort, luxury and privacy. ",
+        "landmarks": [
+            "IL Bosco Compound",
+            "Midtown Sky Compound",
+            "Embassy / Diplomatic District",
+            "Presidential Palace",
+            "Al Masa Hotel",
+            "Green River",
+            "British University",
+            "Mohammed Bin Zayed Axis"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/7729/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/90/medium.webp",
+        "namedeve": "Akam Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/7729/high.webp"
+        ]
+    },
+    {
+        "slug": "the-wonder-marq",
+        "name": "The Wonder Marq",
+        "district": "Mostakbal City",
+        "start_price": "13,640,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "12"
+            },
+            "1": {
+                "downpayment": "5%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "Cash"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "50%"
+            }
+        },
+        "location": "The Wonder Marq by The Marq Communities is located in Mostakbal City, East Cairo. It has strategic access via the Suez Road and Road 90, near New Cairo, MV Square, and Downtown Mall. ",
+        "description": "The Wonder Marq is a high-end integrated residential community comprising residential clusters overlooking water features, gardens, and lush landscaping. It includes amenities like schools, medical complexes, commercial areas, lakes, swimmable lagoons, and entertainment zones. Designed for luxury and lifestyle, it offers various unit types including villas, townhouses, and standalone homes. ",
+        "landmarks": [
+            "MV Square",
+            "Downtown Mall",
+            "Road 90",
+            "New Cairo",
+            "Suez Road",
+            "Other major compounds in Mostakbal City"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/972/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/249/medium.webp",
+        "namedeve": "The Marq Communities",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/972/high.webp"
+        ]
+    },
+    {
+        "slug": "bleu-vert-new-capital",
+        "name": "Bleu Vert",
+        "district": "New Administrative Capital",
+        "start_price": "4,671,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "8"
+            }
+        },
+        "offerType": [
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "location": "Bleu Vert is located in the New Administrative Capital on the Mohammed Bin Zayed axis (R7 district), close to the Cathedral Church, Al Masa Hotel, the Bin Zayed Axis, and near key roads and government districts. ",
+        "description": "Bleu Vert by Saudi Egyptian Developers (SED) is a 70-acre integrated residential compound with ~1,792 units, 54 apartment buildings, plus townhouses and twin villas. Features include large landscaped gardens, club house, spa, gym, commercial hub, and high-end amenities. ",
+        "landmarks": [
+            "Cathedral Church",
+            "Al Masa Hotel",
+            "Mohammed Bin Zayed Axis",
+            "Regional Ring Road",
+            "Al-Fattah Al-Alaim Mosque",
+            "Green River"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/1757/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/87/medium.webp",
+        "namedeve": "Saudi Egyptian Developers (SED)",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/1757/high.webp"
+        ]
+    },
+    {
+        "slug": "bluetree-new-cairo",
+        "name": "Bluetree",
+        "district": "5th Settlement, New Cairo",
+        "start_price": "7,547,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "0%",
+                "years": "7"
+            },
+            "1": {
+                "downpayment": "0%",
+                "years": "8"
+            }
+        },
+        "offerType": [
+            "0% D.P",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "0%",
+                "years": "10"
+            }
+        },
+        "location": "Bluetree by Sky AD is in the Golden Square area of the 5th Settlement, New Cairo, next to Al Ahly Club, accessible via Mohamed Bin Zayed and Abbas Al Akkad axes. It is around 15 min from AUC and close to key services in New Cairo. ",
+        "description": "Bluetree New Cairo is a boutique compound built on ~50 acres, with ~1,300 units including apartments and duplexes. The project emphasizes green spaces (≈81%), water features, central park, jogging & cycling lanes, clubhouse, and modern amenities. ",
+        "landmarks": [
+            "Al Ahly Club",
+            "American University in Cairo (AUC)",
+            "Mohamed Bin Zayed Road",
+            "Abbas Al Akkad Axis",
+            "New Capital",
+            "New Cairo Downtown"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/5900/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/121/medium.webp",
+        "namedeve": "Sky AD Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/5900/high.webp"
+        ]
+    },
+    {
+        "slug": "armonia-new-capital",
+        "name": "Armonia",
+        "district": "New Administrative Capital",
+        "start_price": "4,470,999",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "9"
+            },
+            "1": {
+                "downpayment": "15%",
+                "years": "6"
+            },
+            "2": {
+                "downpayment": "10%",
+                "years": "1"
+            }
+        },
+        "offerType": [
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "location": "Armonia is located in the heart of the New Administrative Capital, in the R7 district, very close to the Diplomatic District, Government Center, Opera House, Al Fattah Al Aleem Mosque, Cathedral, and near the Green River. :contentReference[oaicite:0]{index=0}",
+        "description": "Armonia New Capital by The Land Developers is a luxury integrated compound with various unit types (apartments, villas), high landscaping (green areas), modern amenities, and strategic access to key landmarks in the New Capital. It emphasizes design, lifestyle, and ease of access. :contentReference[oaicite:1]{index=1}",
+        "landmarks": [
+            "Diplomatic District",
+            "Government Center",
+            "Opera House",
+            "Al Fattah Al Aleem Mosque",
+            "Cathedral of the Nativity of Christ",
+            "Green River",
+            "Presidential Palace",
+            "Al Masa Hotel"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/281/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/86/medium.webp",
+        "namedeve": "The Land Developers",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/281/high.webp"
+        ]
+    },
+    {
+        "slug": "east-tower-new-capital",
+        "name": "East Tower",
+        "district": "New Administrative Capital",
+        "start_price": "13,063,754",
+        "originalPlan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "8"
+            },
+            "1": {
+                "downpayment": "15%",
+                "years": "9"
+            },
+            "2": {
+                "downpayment": "20%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "location": "East Tower is in the heart of the New Administrative Capital’s Central Business District (CBD), plot CN-08. It has direct views of the Iconic Tower and the Green River and is near the Government District, Diplomatic Quarter, Parliament, regional ring road, and Mohammed bin Zayed axes. :contentReference[oaicite:2]{index=2}",
+        "description": "East Tower by UC Developments is a tall mixed-use project (administrative, medical, commercial, serviced apartments) with modern design, panoramic views (360°), high-quality finishes, and excellent visibility. It is designed to be landmark in the CBD. :contentReference[oaicite:3]{index=3}",
+        "landmarks": [
+            "Iconic Tower",
+            "Green River",
+            "Government District",
+            "Diplomatic Quarter",
+            "Parliament",
+            "Al Masa Hotel"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/7773/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/130/medium.webp",
+        "namedeve": "UC Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/7773/high.webp"
+        ]
+    },
+    {
+        "slug": "suli-golf-residence",
+        "name": "Suli Golf Residence",
+        "district": "New Administrative Capital",
+        "start_price": "6,012,300",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "8"
+            },
+            "1": {
+                "downpayment": "10%",
+                "years": "9"
+            },
+            "2": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "Cash",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "10%",
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "location": "Suli Golf Residence is in the R8 district (Plot 03) in the New Administrative Capital. It is near the Green River, Al Massa Hotel, Government District, Diplomatic District, with access from key axes like Mohammed bin Zayed, and regional ring roads. :contentReference[oaicite:4]{index=4}",
+        "description": "Suli Golf Residence by UC Developments is a premium compound built over ~26 acres, with apartments and duplexes, extensive green spaces (construction ratio low, high landscaping), water features, golf course, modern amenities and luxury finishes. :contentReference[oaicite:5]{index=5}",
+        "landmarks": [
+            "Green River",
+            "Al Massa Hotel",
+            "Government District",
+            "Diplomatic District",
+            "Regional Ring Road",
+            "Mohammed bin Zayed Axis"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/809/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/130/medium.webp",
+        "namedeve": "UC Real Estate Development",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/809/high.webp"
+        ]
+    },
+    {
+        "slug": "eastville-new-cairo",
+        "name": "Eastville",
+        "district": "New Cairo",
+        "start_price": "3,971,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "5"
+            },
+            "1": {
+                "downpayment": "10%",
+                "years": "9"
+            },
+            "2": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "Cash"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "34%"
+            },
+            "1": {
+                "discount": "14%"
+            }
+        },
+        "location": "Eastville by Ajna Developments is located in the heart of New Cairo’s Fifth Settlement, specifically in the Golden Square area, behind Al Ahly Club. It’s about 3 minutes away from the Middle Ring Road, 5 minutes from North 90th Road and the Ben Zayed Axis, and about 5 minutes from the American University in Cairo. :contentReference[oaicite:0]{index=0}",
+        "description": "Eastville New Cairo is a gated residential compound by Ajna with approx. 20 acres, consisting of townhouse and twin-house units. It features lush landscaping, wide green areas, water features, and is designed for a peaceful and sustainable lifestyle. :contentReference[oaicite:1]{index=1}",
+        "landmarks": [
+            "Al Ahly Club",
+            "American University in Cairo (AUC)",
+            "Golden Square",
+            "Ben Zayed Axis",
+            "Middle Ring Road",
+            "Cairo Festival City Mall"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound/cover_image/1367/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/91/medium.webp",
+        "namedeve": "Ajna Developments",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound/cover_image/1367/high.webp"
+        ]
+    },
+    {
+        "slug": "bloomfields-mostakbal-city",
+        "name": "Bloomfields",
+        "district": "Mostakbal City",
+        "start_price": "6,562,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "5"
+            },
+            "1": {
+                "downpayment": "5%",
+                "years": "8"
+            },
+            "2": {
+                "downpayment": "5%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "5% D.P",
+            "Cash",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "30%",
+                "downpayment": "5%",
+                "years": "5"
+            },
+            "1": {
+                "downpayment": "5%",
+                "years": "11"
+            },
+            "2": {
+                "downpayment": "10%",
+                "years": "12"
+            },
+            "3": {
+                "downpayment": "10%",
+                "years": "15"
+            }
+        },
+        "location": "Bloomfields Mostakbal City by Tatweer Misr is built on about 415 acres. Located between New Cairo’s Golden Square and the New Administrative Capital, Mostakbal City, it is easily accessible via the 90th Street. :contentReference[oaicite:2]{index=2}",
+        "description": "Bloomfields is an integrated residential town offering deluxe homes in clusters (The Vues, The Lake Villas), strong focus on green spaces, lakes, educational & medical facilities, commercial hub, clubhouse, open-air galleries, sustainable landscaping, and high-quality infrastructure. :contentReference[oaicite:3]{index=3}",
+        "landmarks": [
+            "American University in Cairo (AUC), New Cairo Campus",
+            "90th Street",
+            "Golden Square",
+            "New Administrative Capital",
+            "Shopping & Commercial Areas in Mostakbal City",
+            "Al-Rehab / Surrounding New Cairo Areas"
+        ],
+        "imgmaster": "https://prod-images.cooingestate.com/processed/compound_image/image/9309/high.webp",
+        "imgdeve": "https://prod-images.cooingestate.com/processed/developer/logo_image/33/medium.webp",
+        "namedeve": "Tatweer Misr",
+        "images": [
+            "https://prod-images.cooingestate.com/processed/compound_image/image/9309/high.webp"
+        ]
+    }
+]

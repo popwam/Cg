@@ -51,6 +51,7 @@ export default function ProductsPage({ params }: any) {
     { label: "ABOUT US", href: "/about" },
     { label: "DEVELOPERS", href: "/developers" },
     { label: "PROJECTS", href: "/projects", activate: true },
+    { label: "Offers", href: "/offers" },
     { label: "CONTACT US", href: "/contact" },
     { label: "عربي", href: "/ar/projects", issee: "false" },
   ];

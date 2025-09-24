@@ -43,6 +43,7 @@ export default function DeveloperPage(props: Props) {
     { label: "عناً", href: "/ar/about" },
     { label: "المطورين", href: "/ar/developers", activate: true },
     { label: "المشاريع", href: "/ar/projects" },
+    {label: "العروض", href: "/ar/offers" },
     { label: "تواصل ", href: "/ar/contact" },
     { label: "English", href: "/developers", issee: "no" },
   ];

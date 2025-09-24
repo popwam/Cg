@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Contact from "@/components/contact";
 import { metadata } from "./metadata";
 import Head from "next/head";
+import { label } from "framer-motion/client";
 
 export { metadata };
 
@@ -10,6 +11,7 @@ const navLinks = [
   { label: "ABOUT US", href: "/about" },
   { label: "DEVELOPERS", href: "/developers" },
   { label: "PROJECTS", href: "/projects" },
+  { label: "Offers", href: "/offers" },
   { label: "CONTACT US", href: "/contact", activate: true },
   { label: "عربي", href: "/ar/contact" },
 ];

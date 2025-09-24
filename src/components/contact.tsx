@@ -42,10 +42,8 @@ export default function Contact({
         <form
           className={` shadow-xl rounded-2xl text-gray-50 flex lg:min-h-[70vh]  w-full h-full lg:max-w-[70vw]`}
           dir={dir}
-          target="_blank"
-          action="https://formsubmit.co/info@capitalgateegy.com"
-          method="POST"
-        >
+          action="https://formspree.io/f/mldpeyob"
+          method="POST"        >
           <div
             className={`bg-[#000]/85 w-1/2 min-h-full px-6 py-8 text-white flex-col flex gap-8`}
           >
@@ -100,9 +98,8 @@ export default function Contact({
                   type="email"
                   name="email"
                   placeholder={email}
-                  className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
-                    mobaile ? "col-start-1 col-end-3" : ""
-                  }`}
+                  className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${mobaile ? "col-start-1 col-end-3" : ""
+                    }`}
                 />
                 {mobaile ? (
                   <>
@@ -110,18 +107,16 @@ export default function Contact({
                       type="tel"
                       placeholder={phone}
                       name="phoneNumber"
-                      className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
-                        dir === "ltr" ? "text-left" : "text-right"
-                      }`}
+                      className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${dir === "ltr" ? "text-left" : "text-right"
+                        }`}
                       required
                     />
                     <input
                       type="tel"
                       name="secondPhoneNumber"
                       placeholder={mobaile}
-                      className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
-                        dir === "ltr" ? "text-left" : "text-right"
-                      }`}
+                      className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${dir === "ltr" ? "text-left" : "text-right"
+                        }`}
                     />
                   </>
                 ) : (
@@ -129,9 +124,8 @@ export default function Contact({
                     type="tel"
                     name="phoneNumber"
                     placeholder={phone}
-                    className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
-                      dir === "ltr" ? "text-left" : "text-right"
-                    }`}
+                    className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${dir === "ltr" ? "text-left" : "text-right"
+                      }`}
                   />
                 )}
 
@@ -139,12 +133,12 @@ export default function Contact({
                   name="message"
                   rows={2}
                   placeholder={message}
-                  className={`bg-gray-100 p-3 border border-gray-800 rounded w-full outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
+                  className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                 />
 
                 <button
                   type="submit"
-                  className={`bg-gray-800 text-gray-100 hover:text-black px-6 py-2 rounded font-semibold hover:bg-gray-200 w-full transition cursor-pointer w-6/12`}
+                  className={`bg-gray-800 text-gray-100 hover:text-black px-6 py-2 rounded font-semibold hover:bg-gray-200 transition cursor-pointer w-6/12`}
                 >
                   {button}
                 </button>
@@ -183,9 +177,8 @@ export default function Contact({
                     type="email"
                     name="email"
                     placeholder={email}
-                    className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${
-                      mobaile ? "col-start-1 col-end-3" : ""
-                    }`}
+                    className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full ${mobaile ? "col-start-1 col-end-3" : ""
+                      }`}
                   />
                   {mobaile ? (
                     <>
@@ -217,12 +210,12 @@ export default function Contact({
                     rows={2}
                     name="message"
                     placeholder={message}
-                    className={`bg-gray-100 p-3 border border-gray-800 rounded w-full outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
+                    className={`bg-gray-100 p-3 border border-gray-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-gray-800 focus:bg-gray-200 w-full`}
                   />
 
                   <button
                     type="submit"
-                    className={`bg-gray-800 text-gray-100 hover:text-black px-6 py-2 rounded font-semibold hover:bg-gray-200 w-full transition cursor-pointer w-6/12`}
+                    className={`bg-gray-800 text-gray-100 hover:text-black px-6 py-2 rounded font-semibold hover:bg-gray-200 transition cursor-pointer w-6/12`}
                   >
                     {button}
                   </button>

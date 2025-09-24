@@ -12,6 +12,7 @@ export default function Privacy() {
     { label: "About", href: "/about" },
     { label: "Developers", href: "/developers" },
     { label: "Projects", href: "/projects" },
+    { label: "Offers", href: "/offers" },
     { label: "Contact ", href: "/contact" },
     { label: "العربية", href: `/ar/privacy/`, issee: "no" },
   ];

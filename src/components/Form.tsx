@@ -42,8 +42,7 @@ export default function Form({
         <form
           className={`bg-[#111] p-8 rounded-lg max-w-2xl w-full space-y-4 text-gray-50`}
           dir={dir}
-          target="_blank"
-          action="https://formsubmit.co/info@capitalgateegy.com"
+          action="https://formspree.io/f/mldpeyob"
           method="POST"
         >
           <h2 className="text-3xl font-light tracking-wide">{title}</h2>
@@ -68,9 +67,8 @@ export default function Form({
               type="email"
               name="email"
               placeholder={email}
-              className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200 ${
-                mobile ? "col-start-1 col-end-3" : ""
-              }`}
+              className={`bg-zinc-900 p-3 border border-zinc-800 rounded outline-none focus:ring-1 text-gray-600 focus:text-zinc-800 focus:bg-gray-200 ${mobile ? "col-start-1 col-end-3" : ""
+                }`}
             />
             {mobile ? (
               <>

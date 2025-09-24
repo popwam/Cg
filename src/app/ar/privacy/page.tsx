@@ -11,6 +11,7 @@ export default function Privacy() {
     { label: "عناً", href: "/ar/about" },
     { label: "المطورين", href: "/ar/developers" },
     { label: "المشاريع", href: "/ar/projects" },
+    {label: "العروض", href: "/ar/offers" },
     { label: "تواصل ", href: "/ar/contact" },
     { label: "English", href: `/privacy/`, issee: "no" },
   ];

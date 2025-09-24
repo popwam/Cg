@@ -38,6 +38,7 @@ export default function ProductPage(props: Props) {
     { label: "ABOUT US", href: "/about" },
     { label: "DEVELOPERS", href: "/developers" },
     { label: "PROJECTS", href: "/projects", activate: true },
+    { label: "Offers", href: "/offers" },
     { label: "CONTACT US", href: "/contact" },
     { label: "عربي", href: `/ar/project/${slug}`, issee: "false" },
   ];
@@ -150,8 +151,7 @@ export default function ProductPage(props: Props) {
             <form
               className={`bg-[#ccce] p-8 rounded-lg max-w-2xl w-full space-y-4 text-gray-800 md:shadow-2xl shadow-black`}
               dir={dirs}
-              target="_blank"
-              action="https://formsubmit.co/info@capitalgateegy.com"
+              action="https://formspree.io/f/mwprkdwj"
               method="POST"
             >
               {" "}
@@ -166,32 +166,35 @@ export default function ProductPage(props: Props) {
               <div className="grid grid-cols-1 gap-4 ">
                 <input
                   type="text"
+                  name="name"
                   placeholder="Name"
                   className={`bg-gray-50 p-3 border border-gray-300 rounded outline-none focus:ring-1 text-gray-700 focus:text-gray-800 focus:bg-white`}
                   required
                 />
                 <input
                   type="email"
-                  pattern=""
+                  name="email"
                   placeholder="Email"
                   className={`bg-gray-50 p-3 border border-gray-300 rounded outline-none focus:ring-1 text-gray-600 focus:bg-white`}
                 />
                 <input
                   type="tel"
+                  name="phone"
                   placeholder="Mobile Number"
                   className={`bg-gray-50 p-3 border border-gray-300 rounded outline-none focus:ring-1 text-gray-600 focus:bg-white`}
                   required
                 />
                 <input
                   type="tel"
+                  name="anotherphone"
                   placeholder="Another Number"
                   className={`bg-gray-50 p-3 border border-gray-300 rounded outline-none focus:ring-1 text-gray-600 focus:bg-white`}
-                  required
                 />
               </div>
               <textarea
                 rows={2}
                 placeholder="Message"
+                name="message"
                 className={`bg-gray-50 p-3 border border-gray-300 rounded w-full outline-none focus:ring-1 text-gray-600 focus:bg-white`}
               />
               <button
@@ -247,9 +250,8 @@ export default function ProductPage(props: Props) {
                     </p>
                   </div>
                   <div
-                    className={`flex flex-col items-center gap-2 px-2 ${
-                      product.downpayment && product.delivery && `border-x`
-                    }`}
+                    className={`flex flex-col items-center gap-2 px-2 ${product.downpayment && product.delivery && `border-x`
+                      }`}
                   >
                     <p className="text-sm text-gray-500">Installments Years</p>
                     <p className="text-xl font-extrabold">{product.years}</p>
@@ -280,9 +282,8 @@ export default function ProductPage(props: Props) {
                 <div
                   className="w-full h-9/12 relative bg-amber-200"
                   style={{
-                    backgroundImage: `url(${
-                      product.imgmaster || "/loading.webp"
-                    })`,
+                    backgroundImage: `url(${product.imgmaster || "/loading.webp"
+                      })`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
@@ -296,9 +297,8 @@ export default function ProductPage(props: Props) {
                       <div
                         className="w-full h-full"
                         style={{
-                          backgroundImage: `url(${
-                            product.imgdeve || "/loading.webp"
-                          })`,
+                          backgroundImage: `url(${product.imgdeve || "/loading.webp"
+                            })`,
                           backgroundSize: "100%",
                           backgroundPosition: "center",
                           backgroundRepeat: "no-repeat",

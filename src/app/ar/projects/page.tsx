@@ -49,6 +49,7 @@ export default function ProductsPage({ params }: any) {
     { label: "عناً", href: "/ar/about" },
     { label: "المطورين", href: "/ar/developers" },
     { label: "المشاريع", href: "/ar/projects", activate: true },
+    {label: "العروض", href: "/ar/offers" },
     { label: "تواصل ", href: "/ar/contact" },
     { label: "English", href: "/projects", issee: "no" },
   ];

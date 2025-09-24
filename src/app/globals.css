@@ -47,6 +47,27 @@
   font-style: normal;
 }
 
+
+
+
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+@keyframes slide-start {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-slide-start {
+  animation: slide-start 0.3s ease-out; /* ✅ استخدم نفس الاسم */
+}
+
+
+
 /* app/globals.css */
 .blurred::before {
   content: "";

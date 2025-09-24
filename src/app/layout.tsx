@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html>
       <body className={inter.className}>
-        <SecurityBlocker />
+        {/* <SecurityBlocker /> */}
         <AosProvider />
         {children}
       </body>

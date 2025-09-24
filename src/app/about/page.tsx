@@ -12,6 +12,8 @@ const navLinks = [
   { label: "ABOUT US", href: "/about", activate: true },
   { label: "DEVELOPERS", href: "/developers" },
   { label: "PROJECTS", href: "/projects" },
+  { label: "Offers", href: "/offers" },
+
   { label: "CONTACT US", href: "/contact" },
   { label: "عربي", href: "/ar/about", issee: "no" },
 ];
