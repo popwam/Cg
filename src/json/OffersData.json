@@ -798,5 +798,54 @@
         "images": [
             "https://prod-images.cooingestate.com/processed/compound_image/image/9309/high.webp"
         ]
+    },
+    {
+        "slug": "d-bay",
+        "name": "D-Bay in Al Dabaa",
+        "district": " North Coast",
+        "start_price": "13,433,000",
+        "originalPlan": {
+            "0": {
+                "downpayment": "5%",
+                "years": "7"
+            },
+            "1": {
+                "downpayment": "5%",
+                "years": "10"
+            },
+            "2": {
+                "downpayment": "10%",
+                "years": "10"
+            }
+        },
+        "offerType": [
+            "5% D.P",
+            "Cash",
+            "+10 Years"
+        ],
+        "offerplan": {
+            "0": {
+                "discount": "30%",
+                "downpayment": "5%",
+                "years": "5"
+            }
+
+        },
+        "location": "Tatweer Misr developed the D Bay North Coast Project in a prime location overlooking the Mediterranean Sea, specifically in Al Dabaa. The resort is smartly situated on 165th km of the International Coastal Road and in proximity to other roads as well .",
+        "description": "D Bay North Coast Resort was developed by Tatweer Misr over 200 acres. It is a luxurious coastal project that was built to reshape vacationers’ summer experiences, blending various shades of blues and greens in a state-of-the-art beach haven. Aesthetics and culture merge in DBay El Sahel, making it one of the best vacation destinations in the North Coast.",
+        "landmarks": [
+            " 800-meter beachfront",
+            "Swimmable lagoons",
+            "Entertainment facilities",
+            "Vast greenery",
+            "Restaurants & cafes",
+            "Parking areas"
+        ],
+        "imgmaster": "https://prod-images.nawy.com/processed/compound_image/image/6810/high.webp",
+        "imgdeve": "https://prod-images.nawy.com/processed/developer/logo_image/33/medium.webp",
+        "namedeve": "Tatweer Misr",
+        "images": [
+            "https://prod-images.nawy.com/processed/compound_image/image/6810/high.webp"
+        ]
     }
 ]

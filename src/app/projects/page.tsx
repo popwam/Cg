@@ -13,7 +13,7 @@ import {
 } from "react-icons/fa6";
 import Link from "next/link";
 import rawProducts from "@/json/productsData.json";
-import Head from "next/head";
+import Head from "next/head"; // احذفه لو داخل app/ وبدّل metadata
 
 export default function ProductsPage({ params }: any) {
   const router = useRouter();
